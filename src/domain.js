@@ -76,7 +76,11 @@ export const domain = {
         "Typography selected",
         "Logo rules written",
         "Photo style defined",
-        "Brand guide exported"
+        "Brand guide exported",
+        "WCAG contrast ratio recorded",
+        "Token JSON/CSS export validated",
+        "Font license and fallback approved",
+        "Brand governance owner assigned"
     ],
     "artifacts": [
         "Brand guide",
@@ -88,6 +92,33 @@ export const domain = {
         "Font/license notes required",
         "Owner approval before publishing"
     ],
-    "sampleClient": "Oak & Olive Cafe"
+    "sampleClient": "Oak & Olive Cafe",
+    "modules": [
+        { "name": "Contrast lab", "description": "WCAG AA/AAA foreground-background checks, accessible token pair recommendations, and failure remediation notes." },
+        { "name": "Token package exporter", "description": "JSON, CSS custom property, and handoff metadata exports for design-system adoption." },
+        { "name": "Font license tracker", "description": "Typeface source, fallback, license, and allowed-use checklist for client-safe publishing." },
+        { "name": "Brand governance", "description": "Approval roles, channel restrictions, review cadence, and versioned owner signoff." }
+    ],
+    "saas": {
+        "playbooks": [
+            "WCAG contrast remediation queue",
+            "Design token publishing checklist",
+            "Font-license and fallback review",
+            "Client brand-governance handoff"
+        ],
+        "automations": [
+            "Contrast score recalculation",
+            "CSS/JSON token export",
+            "License-risk warning generation",
+            "Owner approval release gate"
+        ],
+        "revenueModel": "Per-brand workspace with paid export packs, governance seats, and quarterly refresh reviews",
+        "integrationTargets": [
+            "Canva handoff",
+            "Webflow/Squarespace CSS tokens",
+            "Figma variable import",
+            "Google Drive brand folder"
+        ]
+    }
 };
 //# sourceMappingURL=domain.js.map
