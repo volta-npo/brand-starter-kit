@@ -116,7 +116,7 @@ export const domain = {
     {"name": "Brand drift monitor", "description": "Scheduled review queue comparing new assets against color, type, logo, voice, and accessibility rules."},
     {"name": "Token version history", "description": "Semantic versioning, change notes, rollback metadata, export timestamps, and downstream channel references."},
     {"name": "Approval workflow builder", "description": "Role-based review paths for designer, mentor, owner, and channel approver before brand assets ship."},
-    {"name": "Renewal intelligence", "description": "Quarterly refresh prompts, stale asset detection, usage analytics, and next-pack recommendations."},
+    {"name": "Renewal intelligence", "description": "Quarterly refresh guidance, stale asset detection, usage analytics, and next-pack recommendations."},
     {"name": "Multi-channel asset rules", "description": "Platform-specific usage rules for web, print, Canva, social, email, and sponsorship materials."}
   ],
   "saas": {
